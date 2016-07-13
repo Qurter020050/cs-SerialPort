@@ -1,0 +1,12 @@
+E:\Project\Visual Studio\SerialPort\SerialPort\bin\Debug\SerialPort.exe.config
+E:\Project\Visual Studio\SerialPort\SerialPort\bin\Debug\SerialPort.exe
+E:\Project\Visual Studio\SerialPort\SerialPort\bin\Debug\SerialPort.pdb
+E:\Project\Visual Studio\SerialPort\SerialPort\obj\Debug\SerialPort.csprojResolveAssemblyReference.cache
+E:\Project\Visual Studio\SerialPort\SerialPort\obj\Debug\SerialPort.Form1.resources
+E:\Project\Visual Studio\SerialPort\SerialPort\obj\Debug\SerialPort.Properties.Resources.resources
+E:\Project\Visual Studio\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.GenerateResource.Cache
+E:\Project\Visual Studio\SerialPort\SerialPort\obj\Debug\SerialPort.exe
+E:\Project\Visual Studio\SerialPort\SerialPort\obj\Debug\SerialPort.pdb
+E:\Project\Git\cs-SerialPort\SerialPort\bin\Debug\SerialPort.exe.config
+E:\Project\Git\cs-SerialPort\SerialPort\obj\Debug\SerialPort.exe
+E:\Project\Git\cs-SerialPort\SerialPort\obj\Debug\SerialPort.pdb
