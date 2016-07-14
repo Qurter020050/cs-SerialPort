@@ -21,5 +21,65 @@ namespace SerialPort
         {
             this.TopMost = true;
         }
+
+        private void l2_rdo_sendlst_CheckedChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void l2_rdo_sendfile_CheckedChanged(object sender, EventArgs e)
+        {
+            if ((l2_grp_sendfile.Visible == true))
+            {
+                DisableGroupbox(l2_grp_sendfile);
+                EnableGroupbox(l2_grp_sendlist);
+            }
+            else
+            {
+                DisableGroupbox(l2_grp_sendlist);
+                EnableGroupbox(l2_grp_sendfile);
+            }
+
+        }
+
+        private void EnableGroupbox(GroupBox grpname)
+        {
+
+            grpname.Enabled = true;
+            foreach (var ctr in grpname.Controls)
+            {
+                (ctr as Control).Enabled = true;
+                (ctr as Control).Visible = true;
+
+            }
+            grpname.Visible = true;
+        }
+        private void DisableGroupbox(GroupBox grpname)
+        {
+            grpname.Visible = false;
+            foreach (var ctr in grpname.Controls)
+            {
+                (ctr as Control).Visible = false;
+                (ctr as Control).Enabled = false;   
+            }
+            grpname.Enabled = false;
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (l2_grp_sendfile.Visible == true)
+                DisableGroupbox(l2_grp_sendfile);
+            else
+                EnableGroupbox(l2_grp_sendfile);
+        }
     }
 }

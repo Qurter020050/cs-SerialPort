@@ -83,11 +83,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.l1_txt_send = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.group_autosendlist = new System.Windows.Forms.GroupBox();
-            this.group_autosendfile = new System.Windows.Forms.GroupBox();
+            this.l2_grp_sendlist = new System.Windows.Forms.GroupBox();
+            this.l2_grp_sendfile = new System.Windows.Forms.GroupBox();
             this.button15 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -270,6 +267,10 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -277,8 +278,8 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.group_autosendlist.SuspendLayout();
-            this.group_autosendfile.SuspendLayout();
+            this.l2_grp_sendlist.SuspendLayout();
+            this.l2_grp_sendfile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -296,6 +297,7 @@
             this.groupBox7.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_clrstate
@@ -858,10 +860,9 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage2.Controls.Add(this.radioButton7);
-            this.tabPage2.Controls.Add(this.radioButton4);
-            this.tabPage2.Controls.Add(this.radioButton3);
-            this.tabPage2.Controls.Add(this.group_autosendlist);
+            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.panel6);
+            this.tabPage2.Controls.Add(this.l2_grp_sendlist);
             this.tabPage2.Controls.Add(this.button17);
             this.tabPage2.Controls.Add(this.groupBox6);
             this.tabPage2.Controls.Add(this.groupBox5);
@@ -871,126 +872,91 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "高级发送";
             // 
-            // radioButton7
+            // l2_grp_sendlist
             // 
-            this.radioButton7.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton7.Location = new System.Drawing.Point(702, 458);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(147, 38);
-            this.radioButton7.TabIndex = 23;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "启动自动发码";
-            this.radioButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.l2_grp_sendlist.Controls.Add(this.l2_grp_sendfile);
+            this.l2_grp_sendlist.Controls.Add(this.label45);
+            this.l2_grp_sendlist.Controls.Add(this.label46);
+            this.l2_grp_sendlist.Controls.Add(this.label47);
+            this.l2_grp_sendlist.Controls.Add(this.label48);
+            this.l2_grp_sendlist.Controls.Add(this.label49);
+            this.l2_grp_sendlist.Controls.Add(this.label50);
+            this.l2_grp_sendlist.Controls.Add(this.label39);
+            this.l2_grp_sendlist.Controls.Add(this.label40);
+            this.l2_grp_sendlist.Controls.Add(this.label41);
+            this.l2_grp_sendlist.Controls.Add(this.label42);
+            this.l2_grp_sendlist.Controls.Add(this.label37);
+            this.l2_grp_sendlist.Controls.Add(this.label38);
+            this.l2_grp_sendlist.Controls.Add(this.label36);
+            this.l2_grp_sendlist.Controls.Add(this.label35);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox38);
+            this.l2_grp_sendlist.Controls.Add(this.trackBar1);
+            this.l2_grp_sendlist.Controls.Add(this.button18);
+            this.l2_grp_sendlist.Controls.Add(this.label31);
+            this.l2_grp_sendlist.Controls.Add(this.textBox40);
+            this.l2_grp_sendlist.Controls.Add(this.textBox41);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox37);
+            this.l2_grp_sendlist.Controls.Add(this.textBox38);
+            this.l2_grp_sendlist.Controls.Add(this.textBox39);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox36);
+            this.l2_grp_sendlist.Controls.Add(this.textBox30);
+            this.l2_grp_sendlist.Controls.Add(this.textBox31);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox32);
+            this.l2_grp_sendlist.Controls.Add(this.textBox32);
+            this.l2_grp_sendlist.Controls.Add(this.textBox33);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox33);
+            this.l2_grp_sendlist.Controls.Add(this.textBox34);
+            this.l2_grp_sendlist.Controls.Add(this.textBox35);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox34);
+            this.l2_grp_sendlist.Controls.Add(this.textBox36);
+            this.l2_grp_sendlist.Controls.Add(this.textBox37);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox35);
+            this.l2_grp_sendlist.Controls.Add(this.textBox22);
+            this.l2_grp_sendlist.Controls.Add(this.textBox23);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox28);
+            this.l2_grp_sendlist.Controls.Add(this.textBox24);
+            this.l2_grp_sendlist.Controls.Add(this.textBox25);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox29);
+            this.l2_grp_sendlist.Controls.Add(this.textBox26);
+            this.l2_grp_sendlist.Controls.Add(this.textBox27);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox30);
+            this.l2_grp_sendlist.Controls.Add(this.textBox28);
+            this.l2_grp_sendlist.Controls.Add(this.textBox29);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox31);
+            this.l2_grp_sendlist.Controls.Add(this.textBox20);
+            this.l2_grp_sendlist.Controls.Add(this.textBox21);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox27);
+            this.l2_grp_sendlist.Controls.Add(this.textBox18);
+            this.l2_grp_sendlist.Controls.Add(this.textBox19);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox26);
+            this.l2_grp_sendlist.Controls.Add(this.textBox12);
+            this.l2_grp_sendlist.Controls.Add(this.textBox17);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox25);
+            this.l2_grp_sendlist.Controls.Add(this.textBox16);
+            this.l2_grp_sendlist.Controls.Add(this.textBox15);
+            this.l2_grp_sendlist.Controls.Add(this.checkBox16);
+            this.l2_grp_sendlist.Location = new System.Drawing.Point(239, 3);
+            this.l2_grp_sendlist.Name = "l2_grp_sendlist";
+            this.l2_grp_sendlist.Size = new System.Drawing.Size(652, 452);
+            this.l2_grp_sendlist.TabIndex = 20;
+            this.l2_grp_sendlist.TabStop = false;
+            this.l2_grp_sendlist.Text = "自动发送列表";
             // 
-            // radioButton4
+            // l2_grp_sendfile
             // 
-            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton4.Location = new System.Drawing.Point(349, 461);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(104, 33);
-            this.radioButton4.TabIndex = 22;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "自动发送文件";
-            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton3.Location = new System.Drawing.Point(239, 461);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(104, 33);
-            this.radioButton3.TabIndex = 21;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "自动发送列表";
-            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // group_autosendlist
-            // 
-            this.group_autosendlist.Controls.Add(this.group_autosendfile);
-            this.group_autosendlist.Controls.Add(this.label45);
-            this.group_autosendlist.Controls.Add(this.label46);
-            this.group_autosendlist.Controls.Add(this.label47);
-            this.group_autosendlist.Controls.Add(this.label48);
-            this.group_autosendlist.Controls.Add(this.label49);
-            this.group_autosendlist.Controls.Add(this.label50);
-            this.group_autosendlist.Controls.Add(this.label39);
-            this.group_autosendlist.Controls.Add(this.label40);
-            this.group_autosendlist.Controls.Add(this.label41);
-            this.group_autosendlist.Controls.Add(this.label42);
-            this.group_autosendlist.Controls.Add(this.label37);
-            this.group_autosendlist.Controls.Add(this.label38);
-            this.group_autosendlist.Controls.Add(this.label36);
-            this.group_autosendlist.Controls.Add(this.label35);
-            this.group_autosendlist.Controls.Add(this.checkBox38);
-            this.group_autosendlist.Controls.Add(this.trackBar1);
-            this.group_autosendlist.Controls.Add(this.button18);
-            this.group_autosendlist.Controls.Add(this.label31);
-            this.group_autosendlist.Controls.Add(this.textBox40);
-            this.group_autosendlist.Controls.Add(this.textBox41);
-            this.group_autosendlist.Controls.Add(this.checkBox37);
-            this.group_autosendlist.Controls.Add(this.textBox38);
-            this.group_autosendlist.Controls.Add(this.textBox39);
-            this.group_autosendlist.Controls.Add(this.checkBox36);
-            this.group_autosendlist.Controls.Add(this.textBox30);
-            this.group_autosendlist.Controls.Add(this.textBox31);
-            this.group_autosendlist.Controls.Add(this.checkBox32);
-            this.group_autosendlist.Controls.Add(this.textBox32);
-            this.group_autosendlist.Controls.Add(this.textBox33);
-            this.group_autosendlist.Controls.Add(this.checkBox33);
-            this.group_autosendlist.Controls.Add(this.textBox34);
-            this.group_autosendlist.Controls.Add(this.textBox35);
-            this.group_autosendlist.Controls.Add(this.checkBox34);
-            this.group_autosendlist.Controls.Add(this.textBox36);
-            this.group_autosendlist.Controls.Add(this.textBox37);
-            this.group_autosendlist.Controls.Add(this.checkBox35);
-            this.group_autosendlist.Controls.Add(this.textBox22);
-            this.group_autosendlist.Controls.Add(this.textBox23);
-            this.group_autosendlist.Controls.Add(this.checkBox28);
-            this.group_autosendlist.Controls.Add(this.textBox24);
-            this.group_autosendlist.Controls.Add(this.textBox25);
-            this.group_autosendlist.Controls.Add(this.checkBox29);
-            this.group_autosendlist.Controls.Add(this.textBox26);
-            this.group_autosendlist.Controls.Add(this.textBox27);
-            this.group_autosendlist.Controls.Add(this.checkBox30);
-            this.group_autosendlist.Controls.Add(this.textBox28);
-            this.group_autosendlist.Controls.Add(this.textBox29);
-            this.group_autosendlist.Controls.Add(this.checkBox31);
-            this.group_autosendlist.Controls.Add(this.textBox20);
-            this.group_autosendlist.Controls.Add(this.textBox21);
-            this.group_autosendlist.Controls.Add(this.checkBox27);
-            this.group_autosendlist.Controls.Add(this.textBox18);
-            this.group_autosendlist.Controls.Add(this.textBox19);
-            this.group_autosendlist.Controls.Add(this.checkBox26);
-            this.group_autosendlist.Controls.Add(this.textBox12);
-            this.group_autosendlist.Controls.Add(this.textBox17);
-            this.group_autosendlist.Controls.Add(this.checkBox25);
-            this.group_autosendlist.Controls.Add(this.textBox16);
-            this.group_autosendlist.Controls.Add(this.textBox15);
-            this.group_autosendlist.Controls.Add(this.checkBox16);
-            this.group_autosendlist.Location = new System.Drawing.Point(239, 3);
-            this.group_autosendlist.Name = "group_autosendlist";
-            this.group_autosendlist.Size = new System.Drawing.Size(652, 452);
-            this.group_autosendlist.TabIndex = 20;
-            this.group_autosendlist.TabStop = false;
-            this.group_autosendlist.Text = "自动发送列表";
-            // 
-            // group_autosendfile
-            // 
-            this.group_autosendfile.Controls.Add(this.button15);
-            this.group_autosendfile.Controls.Add(this.button5);
-            this.group_autosendfile.Controls.Add(this.button1);
-            this.group_autosendfile.Controls.Add(this.textBox1);
-            this.group_autosendfile.Controls.Add(this.progressBar2);
-            this.group_autosendfile.Controls.Add(this.text_autosendfileshow);
-            this.group_autosendfile.Location = new System.Drawing.Point(0, 0);
-            this.group_autosendfile.Name = "group_autosendfile";
-            this.group_autosendfile.Size = new System.Drawing.Size(652, 452);
-            this.group_autosendfile.TabIndex = 147;
-            this.group_autosendfile.TabStop = false;
-            this.group_autosendfile.Text = "自动发送文件";
+            this.l2_grp_sendfile.Controls.Add(this.button15);
+            this.l2_grp_sendfile.Controls.Add(this.button5);
+            this.l2_grp_sendfile.Controls.Add(this.button1);
+            this.l2_grp_sendfile.Controls.Add(this.textBox1);
+            this.l2_grp_sendfile.Controls.Add(this.progressBar2);
+            this.l2_grp_sendfile.Controls.Add(this.text_autosendfileshow);
+            this.l2_grp_sendfile.Location = new System.Drawing.Point(0, 0);
+            this.l2_grp_sendfile.Name = "l2_grp_sendfile";
+            this.l2_grp_sendfile.Size = new System.Drawing.Size(652, 452);
+            this.l2_grp_sendfile.TabIndex = 147;
+            this.l2_grp_sendfile.TabStop = false;
+            this.l2_grp_sendfile.Text = "自动发送文件";
+            this.l2_grp_sendfile.Visible = false;
             // 
             // button15
             // 
@@ -1536,6 +1502,7 @@
             this.button17.TabIndex = 19;
             this.button17.Text = "button17";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // groupBox6
             // 
@@ -2253,7 +2220,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(56, 22);
+            this.textBox3.Location = new System.Drawing.Point(56, 21);
             this.textBox3.MaxLength = 2;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(43, 21);
@@ -2266,7 +2233,7 @@
             "单字节",
             "双字节",
             "三字节"});
-            this.comboBox9.Location = new System.Drawing.Point(105, 23);
+            this.comboBox9.Location = new System.Drawing.Point(105, 21);
             this.comboBox9.Name = "comboBox9";
             this.comboBox9.Size = new System.Drawing.Size(61, 20);
             this.comboBox9.TabIndex = 5;
@@ -2669,6 +2636,49 @@
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "版权信息";
             // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.radioButton1);
+            this.panel6.Controls.Add(this.radioButton2);
+            this.panel6.Location = new System.Drawing.Point(239, 455);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(253, 45);
+            this.panel6.TabIndex = 24;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton1.Location = new System.Drawing.Point(119, 5);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(104, 33);
+            this.radioButton1.TabIndex = 24;
+            this.radioButton1.Text = "自动发送文件";
+            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton2.Checked = true;
+            this.radioButton2.Location = new System.Drawing.Point(9, 5);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(104, 33);
+            this.radioButton2.TabIndex = 23;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "自动发送列表";
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(648, 460);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(206, 33);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "启动自动发送";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -2698,10 +2708,10 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.group_autosendlist.ResumeLayout(false);
-            this.group_autosendlist.PerformLayout();
-            this.group_autosendfile.ResumeLayout(false);
-            this.group_autosendfile.PerformLayout();
+            this.l2_grp_sendlist.ResumeLayout(false);
+            this.l2_grp_sendlist.PerformLayout();
+            this.l2_grp_sendfile.ResumeLayout(false);
+            this.l2_grp_sendfile.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
@@ -2732,6 +2742,7 @@
             this.panel4.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2848,9 +2859,7 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.GroupBox group_autosendlist;
+        private System.Windows.Forms.GroupBox l2_grp_sendlist;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Label label31;
@@ -2908,7 +2917,6 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.CheckBox checkBox38;
         private System.Windows.Forms.CheckBox checkBox39;
-        private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
@@ -2919,7 +2927,7 @@
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.GroupBox group_autosendfile;
+        private System.Windows.Forms.GroupBox l2_grp_sendfile;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button1;
@@ -2979,6 +2987,10 @@
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button btn_topmost;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Button button2;
     }
 }
 
