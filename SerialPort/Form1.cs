@@ -81,5 +81,20 @@ namespace SerialPort
             else
                 EnableGroupbox(l2_grp_sendfile);
         }
+
+        private void txt_status_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chk_loadlasttime_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

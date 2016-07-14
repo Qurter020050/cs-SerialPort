@@ -83,6 +83,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.l1_txt_send = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.l2_grp_sendlist = new System.Windows.Forms.GroupBox();
             this.l2_grp_sendfile = new System.Windows.Forms.GroupBox();
             this.button15 = new System.Windows.Forms.Button();
@@ -267,10 +271,8 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
             this.groupBox4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -278,6 +280,7 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.l2_grp_sendlist.SuspendLayout();
             this.l2_grp_sendfile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
@@ -297,7 +300,6 @@
             this.groupBox7.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_clrstate
@@ -359,8 +361,11 @@
             this.txt_status.Location = new System.Drawing.Point(6, 538);
             this.txt_status.Multiline = true;
             this.txt_status.Name = "txt_status";
+            this.txt_status.ReadOnly = true;
+            this.txt_status.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txt_status.Size = new System.Drawing.Size(532, 80);
             this.txt_status.TabIndex = 46;
+            this.txt_status.TextChanged += new System.EventHandler(this.txt_status_TextChanged);
             // 
             // groupBox4
             // 
@@ -412,7 +417,9 @@
             this.chk_loadlasttime.Size = new System.Drawing.Size(135, 24);
             this.chk_loadlasttime.TabIndex = 44;
             this.chk_loadlasttime.Text = "启动时载入上次设置";
+            this.chk_loadlasttime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chk_loadlasttime.UseVisualStyleBackColor = true;
+            this.chk_loadlasttime.CheckedChanged += new System.EventHandler(this.chk_loadlasttime_CheckedChanged);
             // 
             // btn_setsave
             // 
@@ -549,6 +556,7 @@
             this.l1_txt_receive.MaxLength = 65535;
             this.l1_txt_receive.Multiline = true;
             this.l1_txt_receive.Name = "l1_txt_receive";
+            this.l1_txt_receive.ReadOnly = true;
             this.l1_txt_receive.Size = new System.Drawing.Size(783, 298);
             this.l1_txt_receive.TabIndex = 33;
             // 
@@ -727,6 +735,7 @@
             this.checkBox6.TabIndex = 40;
             this.checkBox6.Text = "DCD";
             this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // checkBox4
             // 
@@ -862,6 +871,7 @@
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.panel6);
+            this.tabPage2.Controls.Add(this.l2_grp_sendfile);
             this.tabPage2.Controls.Add(this.l2_grp_sendlist);
             this.tabPage2.Controls.Add(this.button17);
             this.tabPage2.Controls.Add(this.groupBox6);
@@ -872,9 +882,53 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "高级发送";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(648, 460);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(206, 33);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "启动自动发送";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.radioButton1);
+            this.panel6.Controls.Add(this.radioButton2);
+            this.panel6.Location = new System.Drawing.Point(239, 455);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(253, 45);
+            this.panel6.TabIndex = 24;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton1.Location = new System.Drawing.Point(119, 5);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(104, 33);
+            this.radioButton1.TabIndex = 24;
+            this.radioButton1.Text = "自动发送文件";
+            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton2.Checked = true;
+            this.radioButton2.Location = new System.Drawing.Point(9, 5);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(104, 33);
+            this.radioButton2.TabIndex = 23;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "自动发送列表";
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
             // l2_grp_sendlist
             // 
-            this.l2_grp_sendlist.Controls.Add(this.l2_grp_sendfile);
+            this.l2_grp_sendlist.Controls.Add(this.label58);
+            this.l2_grp_sendlist.Controls.Add(this.label57);
             this.l2_grp_sendlist.Controls.Add(this.label45);
             this.l2_grp_sendlist.Controls.Add(this.label46);
             this.l2_grp_sendlist.Controls.Add(this.label47);
@@ -892,7 +946,6 @@
             this.l2_grp_sendlist.Controls.Add(this.checkBox38);
             this.l2_grp_sendlist.Controls.Add(this.trackBar1);
             this.l2_grp_sendlist.Controls.Add(this.button18);
-            this.l2_grp_sendlist.Controls.Add(this.label31);
             this.l2_grp_sendlist.Controls.Add(this.textBox40);
             this.l2_grp_sendlist.Controls.Add(this.textBox41);
             this.l2_grp_sendlist.Controls.Add(this.checkBox37);
@@ -950,7 +1003,8 @@
             this.l2_grp_sendfile.Controls.Add(this.textBox1);
             this.l2_grp_sendfile.Controls.Add(this.progressBar2);
             this.l2_grp_sendfile.Controls.Add(this.text_autosendfileshow);
-            this.l2_grp_sendfile.Location = new System.Drawing.Point(0, 0);
+            this.l2_grp_sendfile.Controls.Add(this.label31);
+            this.l2_grp_sendfile.Location = new System.Drawing.Point(239, 3);
             this.l2_grp_sendfile.Name = "l2_grp_sendfile";
             this.l2_grp_sendfile.Size = new System.Drawing.Size(652, 452);
             this.l2_grp_sendfile.TabIndex = 147;
@@ -1166,7 +1220,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(96, 20);
+            this.label31.Location = new System.Drawing.Point(145, 20);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(29, 12);
             this.label31.TabIndex = 26;
@@ -1175,6 +1229,7 @@
             // textBox40
             // 
             this.textBox40.Location = new System.Drawing.Point(240, 381);
+            this.textBox40.Multiline = true;
             this.textBox40.Name = "textBox40";
             this.textBox40.Size = new System.Drawing.Size(405, 21);
             this.textBox40.TabIndex = 131;
@@ -1198,6 +1253,7 @@
             // textBox38
             // 
             this.textBox38.Location = new System.Drawing.Point(240, 354);
+            this.textBox38.Multiline = true;
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(405, 21);
             this.textBox38.TabIndex = 128;
@@ -1221,6 +1277,7 @@
             // textBox30
             // 
             this.textBox30.Location = new System.Drawing.Point(240, 327);
+            this.textBox30.Multiline = true;
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(405, 21);
             this.textBox30.TabIndex = 125;
@@ -1244,6 +1301,7 @@
             // textBox32
             // 
             this.textBox32.Location = new System.Drawing.Point(240, 300);
+            this.textBox32.Multiline = true;
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(405, 21);
             this.textBox32.TabIndex = 122;
@@ -1267,6 +1325,7 @@
             // textBox34
             // 
             this.textBox34.Location = new System.Drawing.Point(240, 274);
+            this.textBox34.Multiline = true;
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(405, 21);
             this.textBox34.TabIndex = 119;
@@ -1290,6 +1349,7 @@
             // textBox36
             // 
             this.textBox36.Location = new System.Drawing.Point(240, 249);
+            this.textBox36.Multiline = true;
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(405, 21);
             this.textBox36.TabIndex = 116;
@@ -1313,6 +1373,7 @@
             // textBox22
             // 
             this.textBox22.Location = new System.Drawing.Point(240, 222);
+            this.textBox22.Multiline = true;
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(405, 21);
             this.textBox22.TabIndex = 113;
@@ -1336,6 +1397,7 @@
             // textBox24
             // 
             this.textBox24.Location = new System.Drawing.Point(240, 195);
+            this.textBox24.Multiline = true;
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(405, 21);
             this.textBox24.TabIndex = 110;
@@ -1359,6 +1421,7 @@
             // textBox26
             // 
             this.textBox26.Location = new System.Drawing.Point(240, 169);
+            this.textBox26.Multiline = true;
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(405, 21);
             this.textBox26.TabIndex = 107;
@@ -1382,6 +1445,7 @@
             // textBox28
             // 
             this.textBox28.Location = new System.Drawing.Point(240, 144);
+            this.textBox28.Multiline = true;
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(405, 21);
             this.textBox28.TabIndex = 104;
@@ -1405,6 +1469,7 @@
             // textBox20
             // 
             this.textBox20.Location = new System.Drawing.Point(240, 117);
+            this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(405, 21);
             this.textBox20.TabIndex = 101;
@@ -1428,6 +1493,7 @@
             // textBox18
             // 
             this.textBox18.Location = new System.Drawing.Point(240, 90);
+            this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(405, 21);
             this.textBox18.TabIndex = 98;
@@ -1451,6 +1517,7 @@
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(240, 64);
+            this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(405, 21);
             this.textBox12.TabIndex = 95;
@@ -1474,6 +1541,7 @@
             // textBox16
             // 
             this.textBox16.Location = new System.Drawing.Point(240, 39);
+            this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(405, 21);
             this.textBox16.TabIndex = 92;
@@ -2636,48 +2704,23 @@
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "版权信息";
             // 
-            // panel6
+            // label57
             // 
-            this.panel6.Controls.Add(this.radioButton1);
-            this.panel6.Controls.Add(this.radioButton2);
-            this.panel6.Location = new System.Drawing.Point(239, 455);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(253, 45);
-            this.panel6.TabIndex = 24;
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(117, 19);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(29, 12);
+            this.label57.TabIndex = 148;
+            this.label57.Text = "代码";
             // 
-            // radioButton1
+            // label58
             // 
-            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton1.Location = new System.Drawing.Point(119, 5);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(104, 33);
-            this.radioButton1.TabIndex = 24;
-            this.radioButton1.Text = "自动发送文件";
-            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton2.Checked = true;
-            this.radioButton2.Location = new System.Drawing.Point(9, 5);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(104, 33);
-            this.radioButton2.TabIndex = 23;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "自动发送列表";
-            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(648, 460);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(206, 33);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "启动自动发送";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(255, 17);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(29, 12);
+            this.label58.TabIndex = 149;
+            this.label58.Text = "代码";
             // 
             // Form1
             // 
@@ -2693,6 +2736,7 @@
             this.Controls.Add(this.txt_reccount);
             this.Controls.Add(this.btn_clrcount);
             this.Controls.Add(this.btn_clrstate);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
@@ -2708,6 +2752,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
             this.l2_grp_sendlist.ResumeLayout(false);
             this.l2_grp_sendlist.PerformLayout();
             this.l2_grp_sendfile.ResumeLayout(false);
@@ -2742,7 +2787,6 @@
             this.panel4.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2991,6 +3035,8 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label57;
     }
 }
 
