@@ -36,58 +36,57 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txt_status = new System.Windows.Forms.TextBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btn_topmost = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.grp_quickset = new System.Windows.Forms.GroupBox();
+            this.chk_topmost = new System.Windows.Forms.CheckBox();
+            this.btn_reset = new System.Windows.Forms.Button();
+            this.btn_load = new System.Windows.Forms.Button();
             this.chk_loadlasttime = new System.Windows.Forms.CheckBox();
             this.btn_setsave = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.checkBox39 = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.radio_hex2 = new System.Windows.Forms.RadioButton();
-            this.radio_char2 = new System.Windows.Forms.RadioButton();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button_save2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.l1_chk_enableserial = new System.Windows.Forms.CheckBox();
+            this.l1_grp_send = new System.Windows.Forms.GroupBox();
+            this.l1_btn_send = new System.Windows.Forms.Button();
+            this.l1_rdo_sendhex = new System.Windows.Forms.RadioButton();
+            this.l1_rdo_sendchar = new System.Windows.Forms.RadioButton();
+            this.l1_btn_sendload = new System.Windows.Forms.Button();
+            this.l1_btn_sendsave = new System.Windows.Forms.Button();
+            this.l1_btn_sendclear = new System.Windows.Forms.Button();
             this.l1_txt_receive = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.Combo_channel1 = new System.Windows.Forms.ComboBox();
-            this.Hexbutton1 = new System.Windows.Forms.RadioButton();
-            this.Charbutton1 = new System.Windows.Forms.RadioButton();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.l1_grp_receive = new System.Windows.Forms.GroupBox();
+            this.l1_btn_resend = new System.Windows.Forms.Button();
+            this.l1_chk_showsource = new System.Windows.Forms.CheckBox();
+            this.l1_btn_receivesave = new System.Windows.Forms.Button();
+            this.l1_btn_receiveclear = new System.Windows.Forms.Button();
+            this.l1_cmb_receivechannel = new System.Windows.Forms.ComboBox();
+            this.l1_rdo_receivehex = new System.Windows.Forms.RadioButton();
+            this.l1_rdo_receivechar = new System.Windows.Forms.RadioButton();
+            this.l1_chk_showtime = new System.Windows.Forms.CheckBox();
+            this.l1_chk_showsend = new System.Windows.Forms.CheckBox();
+            this.l1_rdo_serial = new System.Windows.Forms.GroupBox();
+            this.l1_chk_RI = new System.Windows.Forms.CheckBox();
+            this.l1_chk_CTS = new System.Windows.Forms.CheckBox();
+            this.l1_chk_DSR = new System.Windows.Forms.CheckBox();
+            this.l1_chk_DCD = new System.Windows.Forms.CheckBox();
+            this.l1_chk_RTS = new System.Windows.Forms.CheckBox();
+            this.l1_chk_DTR = new System.Windows.Forms.CheckBox();
+            this.l1_cmb_checkbit = new System.Windows.Forms.ComboBox();
+            this.l1_cmb_databit = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.l1_cmb_stopbit = new System.Windows.Forms.ComboBox();
+            this.l1_cmb_baudrate = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.l1_btn_getserial = new System.Windows.Forms.Button();
+            this.l1_cmb_com = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.l1_txt_send = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button2 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.l2_grp_sendlist = new System.Windows.Forms.GroupBox();
+            this.l2_rdo_sendfile = new System.Windows.Forms.RadioButton();
+            this.l2_rdo_sendlist = new System.Windows.Forms.RadioButton();
             this.l2_grp_sendfile = new System.Windows.Forms.GroupBox();
             this.button15 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -95,6 +94,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.text_autosendfileshow = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.l2_grp_sendlist = new System.Windows.Forms.GroupBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
@@ -112,7 +115,6 @@
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.button18 = new System.Windows.Forms.Button();
-            this.label31 = new System.Windows.Forms.Label();
             this.textBox40 = new System.Windows.Forms.TextBox();
             this.textBox41 = new System.Windows.Forms.TextBox();
             this.checkBox37 = new System.Windows.Forms.CheckBox();
@@ -271,18 +273,16 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.groupBox4.SuspendLayout();
+            this.grp_quickset.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.l1_grp_send.SuspendLayout();
+            this.l1_grp_receive.SuspendLayout();
+            this.l1_rdo_serial.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.l2_grp_sendlist.SuspendLayout();
             this.l2_grp_sendfile.SuspendLayout();
+            this.l2_grp_sendlist.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -310,6 +310,7 @@
             this.btn_clrstate.TabIndex = 1;
             this.btn_clrstate.Text = "清除状态";
             this.btn_clrstate.UseVisualStyleBackColor = true;
+            this.btn_clrstate.Click += new System.EventHandler(this.btn_clrstate_Click);
             // 
             // btn_clrcount
             // 
@@ -319,6 +320,7 @@
             this.btn_clrcount.TabIndex = 32;
             this.btn_clrcount.Text = "清除计数";
             this.btn_clrcount.UseVisualStyleBackColor = true;
+            this.btn_clrcount.Click += new System.EventHandler(this.btn_clrcount_Click);
             // 
             // txt_reccount
             // 
@@ -328,6 +330,7 @@
             this.txt_reccount.ReadOnly = true;
             this.txt_reccount.Size = new System.Drawing.Size(93, 21);
             this.txt_reccount.TabIndex = 33;
+            this.txt_reccount.TextChanged += new System.EventHandler(this.txt_reccount_TextChanged);
             // 
             // txt_sendcount
             // 
@@ -367,47 +370,49 @@
             this.txt_status.TabIndex = 46;
             this.txt_status.TextChanged += new System.EventHandler(this.txt_status_TextChanged);
             // 
-            // groupBox4
+            // grp_quickset
             // 
-            this.groupBox4.Controls.Add(this.btn_topmost);
-            this.groupBox4.Controls.Add(this.button14);
-            this.groupBox4.Controls.Add(this.button13);
-            this.groupBox4.Controls.Add(this.chk_loadlasttime);
-            this.groupBox4.Controls.Add(this.btn_setsave);
-            this.groupBox4.Location = new System.Drawing.Point(693, 541);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(203, 80);
-            this.groupBox4.TabIndex = 47;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "快速设置";
+            this.grp_quickset.Controls.Add(this.chk_topmost);
+            this.grp_quickset.Controls.Add(this.btn_reset);
+            this.grp_quickset.Controls.Add(this.btn_load);
+            this.grp_quickset.Controls.Add(this.chk_loadlasttime);
+            this.grp_quickset.Controls.Add(this.btn_setsave);
+            this.grp_quickset.Location = new System.Drawing.Point(693, 541);
+            this.grp_quickset.Name = "grp_quickset";
+            this.grp_quickset.Size = new System.Drawing.Size(203, 80);
+            this.grp_quickset.TabIndex = 47;
+            this.grp_quickset.TabStop = false;
+            this.grp_quickset.Text = "快速设置";
             // 
-            // btn_topmost
+            // chk_topmost
             // 
-            this.btn_topmost.Location = new System.Drawing.Point(154, 20);
-            this.btn_topmost.Name = "btn_topmost";
-            this.btn_topmost.Size = new System.Drawing.Size(41, 54);
-            this.btn_topmost.TabIndex = 47;
-            this.btn_topmost.Text = "置顶";
-            this.btn_topmost.UseVisualStyleBackColor = true;
-            this.btn_topmost.Click += new System.EventHandler(this.btn_topmost_Click);
+            this.chk_topmost.Appearance = System.Windows.Forms.Appearance.Button;
+            this.chk_topmost.Location = new System.Drawing.Point(154, 21);
+            this.chk_topmost.Name = "chk_topmost";
+            this.chk_topmost.Size = new System.Drawing.Size(38, 53);
+            this.chk_topmost.TabIndex = 47;
+            this.chk_topmost.Text = "置顶";
+            this.chk_topmost.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chk_topmost.UseVisualStyleBackColor = true;
+            this.chk_topmost.CheckedChanged += new System.EventHandler(this.check_topmost_CheckedChanged);
             // 
-            // button14
+            // btn_reset
             // 
-            this.button14.Location = new System.Drawing.Point(107, 21);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(41, 23);
-            this.button14.TabIndex = 46;
-            this.button14.Text = "保存";
-            this.button14.UseVisualStyleBackColor = true;
+            this.btn_reset.Location = new System.Drawing.Point(107, 21);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(41, 23);
+            this.btn_reset.TabIndex = 46;
+            this.btn_reset.Text = "重置";
+            this.btn_reset.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // btn_load
             // 
-            this.button13.Location = new System.Drawing.Point(60, 21);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(41, 23);
-            this.button13.TabIndex = 45;
-            this.button13.Text = "保存";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btn_load.Location = new System.Drawing.Point(60, 21);
+            this.btn_load.Name = "btn_load";
+            this.btn_load.Size = new System.Drawing.Size(41, 23);
+            this.btn_load.TabIndex = 45;
+            this.btn_load.Text = "载入";
+            this.btn_load.UseVisualStyleBackColor = true;
             // 
             // chk_loadlasttime
             // 
@@ -454,11 +459,11 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage1.Controls.Add(this.checkBox39);
-            this.tabPage1.Controls.Add(this.groupBox3);
+            this.tabPage1.Controls.Add(this.l1_chk_enableserial);
+            this.tabPage1.Controls.Add(this.l1_grp_send);
             this.tabPage1.Controls.Add(this.l1_txt_receive);
-            this.tabPage1.Controls.Add(this.groupBox2);
-            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.l1_grp_receive);
+            this.tabPage1.Controls.Add(this.l1_rdo_serial);
             this.tabPage1.Controls.Add(this.l1_txt_send);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -466,89 +471,93 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "基本功能";
             // 
-            // checkBox39
+            // l1_chk_enableserial
             // 
-            this.checkBox39.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox39.Location = new System.Drawing.Point(660, 462);
-            this.checkBox39.Name = "checkBox39";
-            this.checkBox39.Size = new System.Drawing.Size(224, 34);
-            this.checkBox39.TabIndex = 39;
-            this.checkBox39.Text = "启动串行端口";
-            this.checkBox39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox39.UseVisualStyleBackColor = true;
+            this.l1_chk_enableserial.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l1_chk_enableserial.Location = new System.Drawing.Point(660, 462);
+            this.l1_chk_enableserial.Name = "l1_chk_enableserial";
+            this.l1_chk_enableserial.Size = new System.Drawing.Size(224, 34);
+            this.l1_chk_enableserial.TabIndex = 39;
+            this.l1_chk_enableserial.Text = "启动串行端口";
+            this.l1_chk_enableserial.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l1_chk_enableserial.UseVisualStyleBackColor = true;
+            this.l1_chk_enableserial.CheckedChanged += new System.EventHandler(this.l1_chk_enableserial_CheckedChanged);
             // 
-            // groupBox3
+            // l1_grp_send
             // 
-            this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.radio_hex2);
-            this.groupBox3.Controls.Add(this.radio_char2);
-            this.groupBox3.Controls.Add(this.button7);
-            this.groupBox3.Controls.Add(this.button_save2);
-            this.groupBox3.Controls.Add(this.button4);
-            this.groupBox3.Location = new System.Drawing.Point(540, 307);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(98, 189);
-            this.groupBox3.TabIndex = 37;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "发送区";
+            this.l1_grp_send.Controls.Add(this.l1_btn_send);
+            this.l1_grp_send.Controls.Add(this.l1_rdo_sendhex);
+            this.l1_grp_send.Controls.Add(this.l1_rdo_sendchar);
+            this.l1_grp_send.Controls.Add(this.l1_btn_sendload);
+            this.l1_grp_send.Controls.Add(this.l1_btn_sendsave);
+            this.l1_grp_send.Controls.Add(this.l1_btn_sendclear);
+            this.l1_grp_send.Location = new System.Drawing.Point(540, 307);
+            this.l1_grp_send.Name = "l1_grp_send";
+            this.l1_grp_send.Size = new System.Drawing.Size(98, 189);
+            this.l1_grp_send.TabIndex = 37;
+            this.l1_grp_send.TabStop = false;
+            this.l1_grp_send.Text = "发送区";
             // 
-            // button6
+            // l1_btn_send
             // 
-            this.button6.Location = new System.Drawing.Point(16, 155);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(72, 23);
-            this.button6.TabIndex = 31;
-            this.button6.Text = "发送";
-            this.button6.UseVisualStyleBackColor = true;
+            this.l1_btn_send.Location = new System.Drawing.Point(16, 155);
+            this.l1_btn_send.Name = "l1_btn_send";
+            this.l1_btn_send.Size = new System.Drawing.Size(72, 23);
+            this.l1_btn_send.TabIndex = 31;
+            this.l1_btn_send.Text = "发送";
+            this.l1_btn_send.UseVisualStyleBackColor = true;
+            this.l1_btn_send.Click += new System.EventHandler(this.l1_btn_send_Click);
             // 
-            // radio_hex2
+            // l1_rdo_sendhex
             // 
-            this.radio_hex2.AutoSize = true;
-            this.radio_hex2.Location = new System.Drawing.Point(16, 24);
-            this.radio_hex2.Name = "radio_hex2";
-            this.radio_hex2.Size = new System.Drawing.Size(53, 16);
-            this.radio_hex2.TabIndex = 29;
-            this.radio_hex2.TabStop = true;
-            this.radio_hex2.Text = "HEX码";
-            this.radio_hex2.UseVisualStyleBackColor = true;
+            this.l1_rdo_sendhex.AutoSize = true;
+            this.l1_rdo_sendhex.Checked = true;
+            this.l1_rdo_sendhex.Location = new System.Drawing.Point(16, 24);
+            this.l1_rdo_sendhex.Name = "l1_rdo_sendhex";
+            this.l1_rdo_sendhex.Size = new System.Drawing.Size(53, 16);
+            this.l1_rdo_sendhex.TabIndex = 29;
+            this.l1_rdo_sendhex.TabStop = true;
+            this.l1_rdo_sendhex.Text = "HEX码";
+            this.l1_rdo_sendhex.UseVisualStyleBackColor = true;
+            this.l1_rdo_sendhex.CheckedChanged += new System.EventHandler(this.l1_rdo_sendhex_CheckedChanged);
             // 
-            // radio_char2
+            // l1_rdo_sendchar
             // 
-            this.radio_char2.AutoSize = true;
-            this.radio_char2.Location = new System.Drawing.Point(16, 46);
-            this.radio_char2.Name = "radio_char2";
-            this.radio_char2.Size = new System.Drawing.Size(59, 16);
-            this.radio_char2.TabIndex = 30;
-            this.radio_char2.TabStop = true;
-            this.radio_char2.Text = "字符串";
-            this.radio_char2.UseVisualStyleBackColor = true;
+            this.l1_rdo_sendchar.AutoSize = true;
+            this.l1_rdo_sendchar.Location = new System.Drawing.Point(16, 46);
+            this.l1_rdo_sendchar.Name = "l1_rdo_sendchar";
+            this.l1_rdo_sendchar.Size = new System.Drawing.Size(59, 16);
+            this.l1_rdo_sendchar.TabIndex = 30;
+            this.l1_rdo_sendchar.Text = "字符串";
+            this.l1_rdo_sendchar.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // l1_btn_sendload
             // 
-            this.button7.Location = new System.Drawing.Point(15, 97);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(73, 23);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "载入";
-            this.button7.UseVisualStyleBackColor = true;
+            this.l1_btn_sendload.Location = new System.Drawing.Point(15, 97);
+            this.l1_btn_sendload.Name = "l1_btn_sendload";
+            this.l1_btn_sendload.Size = new System.Drawing.Size(73, 23);
+            this.l1_btn_sendload.TabIndex = 19;
+            this.l1_btn_sendload.Text = "载入";
+            this.l1_btn_sendload.UseVisualStyleBackColor = true;
             // 
-            // button_save2
+            // l1_btn_sendsave
             // 
-            this.button_save2.Location = new System.Drawing.Point(16, 68);
-            this.button_save2.Name = "button_save2";
-            this.button_save2.Size = new System.Drawing.Size(72, 23);
-            this.button_save2.TabIndex = 17;
-            this.button_save2.Text = "保存";
-            this.button_save2.UseVisualStyleBackColor = true;
+            this.l1_btn_sendsave.Location = new System.Drawing.Point(16, 68);
+            this.l1_btn_sendsave.Name = "l1_btn_sendsave";
+            this.l1_btn_sendsave.Size = new System.Drawing.Size(72, 23);
+            this.l1_btn_sendsave.TabIndex = 17;
+            this.l1_btn_sendsave.Text = "保存";
+            this.l1_btn_sendsave.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // l1_btn_sendclear
             // 
-            this.button4.Location = new System.Drawing.Point(16, 126);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(72, 23);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "清除";
-            this.button4.UseVisualStyleBackColor = true;
+            this.l1_btn_sendclear.Location = new System.Drawing.Point(16, 126);
+            this.l1_btn_sendclear.Name = "l1_btn_sendclear";
+            this.l1_btn_sendclear.Size = new System.Drawing.Size(72, 23);
+            this.l1_btn_sendclear.TabIndex = 18;
+            this.l1_btn_sendclear.Text = "清除";
+            this.l1_btn_sendclear.UseVisualStyleBackColor = true;
+            this.l1_btn_sendclear.Click += new System.EventHandler(this.l1_btn_sendclear_Click);
             // 
             // l1_txt_receive
             // 
@@ -560,222 +569,258 @@
             this.l1_txt_receive.Size = new System.Drawing.Size(783, 298);
             this.l1_txt_receive.TabIndex = 33;
             // 
-            // groupBox2
+            // l1_grp_receive
             // 
-            this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Controls.Add(this.checkBox9);
-            this.groupBox2.Controls.Add(this.button9);
-            this.groupBox2.Controls.Add(this.button10);
-            this.groupBox2.Controls.Add(this.Combo_channel1);
-            this.groupBox2.Controls.Add(this.Hexbutton1);
-            this.groupBox2.Controls.Add(this.Charbutton1);
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Location = new System.Drawing.Point(792, 3);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(101, 298);
-            this.groupBox2.TabIndex = 36;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "接收区";
+            this.l1_grp_receive.Controls.Add(this.l1_btn_resend);
+            this.l1_grp_receive.Controls.Add(this.l1_chk_showsource);
+            this.l1_grp_receive.Controls.Add(this.l1_btn_receivesave);
+            this.l1_grp_receive.Controls.Add(this.l1_btn_receiveclear);
+            this.l1_grp_receive.Controls.Add(this.l1_cmb_receivechannel);
+            this.l1_grp_receive.Controls.Add(this.l1_rdo_receivehex);
+            this.l1_grp_receive.Controls.Add(this.l1_rdo_receivechar);
+            this.l1_grp_receive.Controls.Add(this.l1_chk_showtime);
+            this.l1_grp_receive.Controls.Add(this.l1_chk_showsend);
+            this.l1_grp_receive.Location = new System.Drawing.Point(792, 3);
+            this.l1_grp_receive.Name = "l1_grp_receive";
+            this.l1_grp_receive.Size = new System.Drawing.Size(101, 298);
+            this.l1_grp_receive.TabIndex = 36;
+            this.l1_grp_receive.TabStop = false;
+            this.l1_grp_receive.Text = "接收区";
             // 
-            // button8
+            // l1_btn_resend
             // 
-            this.button8.Location = new System.Drawing.Point(16, 256);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(71, 23);
-            this.button8.TabIndex = 34;
-            this.button8.Text = "转发";
-            this.button8.UseVisualStyleBackColor = true;
+            this.l1_btn_resend.Location = new System.Drawing.Point(16, 256);
+            this.l1_btn_resend.Name = "l1_btn_resend";
+            this.l1_btn_resend.Size = new System.Drawing.Size(71, 23);
+            this.l1_btn_resend.TabIndex = 34;
+            this.l1_btn_resend.Text = "转发";
+            this.l1_btn_resend.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // l1_chk_showsource
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(15, 160);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(72, 16);
-            this.checkBox9.TabIndex = 29;
-            this.checkBox9.Text = "标注来源";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.l1_chk_showsource.AutoSize = true;
+            this.l1_chk_showsource.Location = new System.Drawing.Point(15, 160);
+            this.l1_chk_showsource.Name = "l1_chk_showsource";
+            this.l1_chk_showsource.Size = new System.Drawing.Size(72, 16);
+            this.l1_chk_showsource.TabIndex = 29;
+            this.l1_chk_showsource.Text = "标注来源";
+            this.l1_chk_showsource.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // l1_btn_receivesave
             // 
-            this.button9.Location = new System.Drawing.Point(16, 198);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(71, 23);
-            this.button9.TabIndex = 32;
-            this.button9.Text = "保存";
-            this.button9.UseVisualStyleBackColor = true;
+            this.l1_btn_receivesave.Location = new System.Drawing.Point(16, 198);
+            this.l1_btn_receivesave.Name = "l1_btn_receivesave";
+            this.l1_btn_receivesave.Size = new System.Drawing.Size(71, 23);
+            this.l1_btn_receivesave.TabIndex = 32;
+            this.l1_btn_receivesave.Text = "保存";
+            this.l1_btn_receivesave.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // l1_btn_receiveclear
             // 
-            this.button10.Location = new System.Drawing.Point(15, 227);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(72, 23);
-            this.button10.TabIndex = 33;
-            this.button10.Text = "清除";
-            this.button10.UseVisualStyleBackColor = true;
+            this.l1_btn_receiveclear.Location = new System.Drawing.Point(15, 227);
+            this.l1_btn_receiveclear.Name = "l1_btn_receiveclear";
+            this.l1_btn_receiveclear.Size = new System.Drawing.Size(72, 23);
+            this.l1_btn_receiveclear.TabIndex = 33;
+            this.l1_btn_receiveclear.Text = "清除";
+            this.l1_btn_receiveclear.UseVisualStyleBackColor = true;
+            this.l1_btn_receiveclear.Click += new System.EventHandler(this.l1_btn_receiveclear_Click);
             // 
-            // Combo_channel1
+            // l1_cmb_receivechannel
             // 
-            this.Combo_channel1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Combo_channel1.FormattingEnabled = true;
-            this.Combo_channel1.Location = new System.Drawing.Point(15, 24);
-            this.Combo_channel1.Name = "Combo_channel1";
-            this.Combo_channel1.Size = new System.Drawing.Size(72, 20);
-            this.Combo_channel1.TabIndex = 28;
+            this.l1_cmb_receivechannel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.l1_cmb_receivechannel.FormattingEnabled = true;
+            this.l1_cmb_receivechannel.Items.AddRange(new object[] {
+            "原始接受",
+            "接收帧",
+            "全通道",
+            "通道1",
+            "通道2",
+            "通道3",
+            "通道4",
+            "通道5",
+            "通道6",
+            "通道7",
+            "关闭"});
+            this.l1_cmb_receivechannel.Location = new System.Drawing.Point(15, 24);
+            this.l1_cmb_receivechannel.Name = "l1_cmb_receivechannel";
+            this.l1_cmb_receivechannel.Size = new System.Drawing.Size(72, 20);
+            this.l1_cmb_receivechannel.TabIndex = 28;
             // 
-            // Hexbutton1
+            // l1_rdo_receivehex
             // 
-            this.Hexbutton1.AutoSize = true;
-            this.Hexbutton1.Location = new System.Drawing.Point(15, 61);
-            this.Hexbutton1.Name = "Hexbutton1";
-            this.Hexbutton1.Size = new System.Drawing.Size(53, 16);
-            this.Hexbutton1.TabIndex = 11;
-            this.Hexbutton1.TabStop = true;
-            this.Hexbutton1.Text = "HEX码";
-            this.Hexbutton1.UseVisualStyleBackColor = true;
+            this.l1_rdo_receivehex.AutoSize = true;
+            this.l1_rdo_receivehex.Checked = true;
+            this.l1_rdo_receivehex.Location = new System.Drawing.Point(15, 61);
+            this.l1_rdo_receivehex.Name = "l1_rdo_receivehex";
+            this.l1_rdo_receivehex.Size = new System.Drawing.Size(53, 16);
+            this.l1_rdo_receivehex.TabIndex = 11;
+            this.l1_rdo_receivehex.TabStop = true;
+            this.l1_rdo_receivehex.Text = "HEX码";
+            this.l1_rdo_receivehex.UseVisualStyleBackColor = true;
+            this.l1_rdo_receivehex.CheckedChanged += new System.EventHandler(this.l1_rdo_receivehex_CheckedChanged);
             // 
-            // Charbutton1
+            // l1_rdo_receivechar
             // 
-            this.Charbutton1.AutoSize = true;
-            this.Charbutton1.Location = new System.Drawing.Point(15, 83);
-            this.Charbutton1.Name = "Charbutton1";
-            this.Charbutton1.Size = new System.Drawing.Size(59, 16);
-            this.Charbutton1.TabIndex = 12;
-            this.Charbutton1.TabStop = true;
-            this.Charbutton1.Text = "字符串";
-            this.Charbutton1.UseVisualStyleBackColor = true;
+            this.l1_rdo_receivechar.AutoSize = true;
+            this.l1_rdo_receivechar.Location = new System.Drawing.Point(15, 83);
+            this.l1_rdo_receivechar.Name = "l1_rdo_receivechar";
+            this.l1_rdo_receivechar.Size = new System.Drawing.Size(59, 16);
+            this.l1_rdo_receivechar.TabIndex = 12;
+            this.l1_rdo_receivechar.Text = "字符串";
+            this.l1_rdo_receivechar.UseVisualStyleBackColor = true;
+            this.l1_rdo_receivechar.CheckedChanged += new System.EventHandler(this.l1_rdo_receivechar_CheckedChanged);
             // 
-            // checkBox2
+            // l1_chk_showtime
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(15, 138);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(72, 16);
-            this.checkBox2.TabIndex = 16;
-            this.checkBox2.Text = "标注时间";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.l1_chk_showtime.AutoSize = true;
+            this.l1_chk_showtime.Location = new System.Drawing.Point(15, 138);
+            this.l1_chk_showtime.Name = "l1_chk_showtime";
+            this.l1_chk_showtime.Size = new System.Drawing.Size(72, 16);
+            this.l1_chk_showtime.TabIndex = 16;
+            this.l1_chk_showtime.Text = "标注时间";
+            this.l1_chk_showtime.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // l1_chk_showsend
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(15, 116);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 16);
-            this.checkBox1.TabIndex = 15;
-            this.checkBox1.Text = "显示发送";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.l1_chk_showsend.AutoSize = true;
+            this.l1_chk_showsend.Location = new System.Drawing.Point(15, 116);
+            this.l1_chk_showsend.Name = "l1_chk_showsend";
+            this.l1_chk_showsend.Size = new System.Drawing.Size(72, 16);
+            this.l1_chk_showsend.TabIndex = 15;
+            this.l1_chk_showsend.Text = "显示发送";
+            this.l1_chk_showsend.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // l1_rdo_serial
             // 
-            this.groupBox1.Controls.Add(this.checkBox7);
-            this.groupBox1.Controls.Add(this.checkBox8);
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.comboBox4);
-            this.groupBox1.Controls.Add(this.comboBox6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(644, 307);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(251, 149);
-            this.groupBox1.TabIndex = 35;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "串口设置";
+            this.l1_rdo_serial.Controls.Add(this.l1_chk_RI);
+            this.l1_rdo_serial.Controls.Add(this.l1_chk_CTS);
+            this.l1_rdo_serial.Controls.Add(this.l1_chk_DSR);
+            this.l1_rdo_serial.Controls.Add(this.l1_chk_DCD);
+            this.l1_rdo_serial.Controls.Add(this.l1_chk_RTS);
+            this.l1_rdo_serial.Controls.Add(this.l1_chk_DTR);
+            this.l1_rdo_serial.Controls.Add(this.l1_cmb_checkbit);
+            this.l1_rdo_serial.Controls.Add(this.l1_cmb_databit);
+            this.l1_rdo_serial.Controls.Add(this.label5);
+            this.l1_rdo_serial.Controls.Add(this.label4);
+            this.l1_rdo_serial.Controls.Add(this.l1_cmb_stopbit);
+            this.l1_rdo_serial.Controls.Add(this.l1_cmb_baudrate);
+            this.l1_rdo_serial.Controls.Add(this.label3);
+            this.l1_rdo_serial.Controls.Add(this.label2);
+            this.l1_rdo_serial.Controls.Add(this.l1_btn_getserial);
+            this.l1_rdo_serial.Controls.Add(this.l1_cmb_com);
+            this.l1_rdo_serial.Controls.Add(this.label1);
+            this.l1_rdo_serial.Location = new System.Drawing.Point(644, 307);
+            this.l1_rdo_serial.Name = "l1_rdo_serial";
+            this.l1_rdo_serial.Size = new System.Drawing.Size(251, 149);
+            this.l1_rdo_serial.TabIndex = 35;
+            this.l1_rdo_serial.TabStop = false;
+            this.l1_rdo_serial.Text = "串口设置";
+            this.l1_rdo_serial.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // checkBox7
+            // l1_chk_RI
             // 
-            this.checkBox7.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox7.Location = new System.Drawing.Point(209, 117);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(33, 22);
-            this.checkBox7.TabIndex = 43;
-            this.checkBox7.Text = "RI";
-            this.checkBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.l1_chk_RI.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l1_chk_RI.Checked = true;
+            this.l1_chk_RI.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.l1_chk_RI.Location = new System.Drawing.Point(209, 117);
+            this.l1_chk_RI.Name = "l1_chk_RI";
+            this.l1_chk_RI.Size = new System.Drawing.Size(33, 22);
+            this.l1_chk_RI.TabIndex = 43;
+            this.l1_chk_RI.Text = "RI";
+            this.l1_chk_RI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l1_chk_RI.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // l1_chk_CTS
             // 
-            this.checkBox8.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(172, 117);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(33, 22);
-            this.checkBox8.TabIndex = 42;
-            this.checkBox8.Text = "CTS";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.l1_chk_CTS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l1_chk_CTS.AutoSize = true;
+            this.l1_chk_CTS.Checked = true;
+            this.l1_chk_CTS.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.l1_chk_CTS.Location = new System.Drawing.Point(172, 117);
+            this.l1_chk_CTS.Name = "l1_chk_CTS";
+            this.l1_chk_CTS.Size = new System.Drawing.Size(33, 22);
+            this.l1_chk_CTS.TabIndex = 42;
+            this.l1_chk_CTS.Text = "CTS";
+            this.l1_chk_CTS.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // l1_chk_DSR
             // 
-            this.checkBox5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(133, 117);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(33, 22);
-            this.checkBox5.TabIndex = 41;
-            this.checkBox5.Text = "DSR";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.l1_chk_DSR.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l1_chk_DSR.AutoSize = true;
+            this.l1_chk_DSR.Checked = true;
+            this.l1_chk_DSR.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.l1_chk_DSR.Location = new System.Drawing.Point(133, 117);
+            this.l1_chk_DSR.Name = "l1_chk_DSR";
+            this.l1_chk_DSR.Size = new System.Drawing.Size(33, 22);
+            this.l1_chk_DSR.TabIndex = 41;
+            this.l1_chk_DSR.Text = "DSR";
+            this.l1_chk_DSR.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // l1_chk_DCD
             // 
-            this.checkBox6.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(94, 117);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(33, 22);
-            this.checkBox6.TabIndex = 40;
-            this.checkBox6.Text = "DCD";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
+            this.l1_chk_DCD.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l1_chk_DCD.AutoSize = true;
+            this.l1_chk_DCD.Checked = true;
+            this.l1_chk_DCD.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.l1_chk_DCD.Location = new System.Drawing.Point(94, 117);
+            this.l1_chk_DCD.Name = "l1_chk_DCD";
+            this.l1_chk_DCD.Size = new System.Drawing.Size(33, 22);
+            this.l1_chk_DCD.TabIndex = 40;
+            this.l1_chk_DCD.Text = "DCD";
+            this.l1_chk_DCD.UseVisualStyleBackColor = true;
+            this.l1_chk_DCD.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
-            // checkBox4
+            // l1_chk_RTS
             // 
-            this.checkBox4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(55, 117);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(33, 22);
-            this.checkBox4.TabIndex = 39;
-            this.checkBox4.Text = "RTS";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.l1_chk_RTS.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l1_chk_RTS.AutoSize = true;
+            this.l1_chk_RTS.Location = new System.Drawing.Point(55, 117);
+            this.l1_chk_RTS.Name = "l1_chk_RTS";
+            this.l1_chk_RTS.Size = new System.Drawing.Size(33, 22);
+            this.l1_chk_RTS.TabIndex = 39;
+            this.l1_chk_RTS.Text = "RTS";
+            this.l1_chk_RTS.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // l1_chk_DTR
             // 
-            this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(16, 117);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(33, 22);
-            this.checkBox3.TabIndex = 38;
-            this.checkBox3.Text = "DTR";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.l1_chk_DTR.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l1_chk_DTR.AutoSize = true;
+            this.l1_chk_DTR.Location = new System.Drawing.Point(16, 117);
+            this.l1_chk_DTR.Name = "l1_chk_DTR";
+            this.l1_chk_DTR.Size = new System.Drawing.Size(33, 22);
+            this.l1_chk_DTR.TabIndex = 38;
+            this.l1_chk_DTR.Text = "DTR";
+            this.l1_chk_DTR.UseVisualStyleBackColor = true;
             // 
-            // comboBox4
+            // l1_cmb_checkbit
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(178, 79);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(64, 20);
-            this.comboBox4.TabIndex = 37;
+            this.l1_cmb_checkbit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.l1_cmb_checkbit.FormattingEnabled = true;
+            this.l1_cmb_checkbit.Items.AddRange(new object[] {
+            "None 无",
+            "Odd 奇",
+            "Even 偶",
+            "Mark 1",
+            "Space 0"});
+            this.l1_cmb_checkbit.Location = new System.Drawing.Point(178, 79);
+            this.l1_cmb_checkbit.Name = "l1_cmb_checkbit";
+            this.l1_cmb_checkbit.Size = new System.Drawing.Size(64, 20);
+            this.l1_cmb_checkbit.TabIndex = 37;
             // 
-            // comboBox6
+            // l1_cmb_databit
             // 
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(178, 53);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(64, 20);
-            this.comboBox6.TabIndex = 36;
+            this.l1_cmb_databit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.l1_cmb_databit.FormattingEnabled = true;
+            this.l1_cmb_databit.Items.AddRange(new object[] {
+            "8bit",
+            "7bit",
+            "6bit",
+            "5bit",
+            "4bit"});
+            this.l1_cmb_databit.Location = new System.Drawing.Point(178, 53);
+            this.l1_cmb_databit.Name = "l1_cmb_databit";
+            this.l1_cmb_databit.Size = new System.Drawing.Size(64, 20);
+            this.l1_cmb_databit.TabIndex = 36;
             // 
             // label5
             // 
@@ -784,7 +829,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 12);
             this.label5.TabIndex = 35;
-            this.label5.Text = "停止位";
+            this.label5.Text = "数据位";
             // 
             // label4
             // 
@@ -795,23 +840,45 @@
             this.label4.TabIndex = 34;
             this.label4.Text = "停止位";
             // 
-            // comboBox3
+            // l1_cmb_stopbit
             // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(61, 79);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(64, 20);
-            this.comboBox3.TabIndex = 33;
+            this.l1_cmb_stopbit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.l1_cmb_stopbit.FormattingEnabled = true;
+            this.l1_cmb_stopbit.Items.AddRange(new object[] {
+            "1 bit",
+            "1.5bit",
+            "2 bit"});
+            this.l1_cmb_stopbit.Location = new System.Drawing.Point(61, 79);
+            this.l1_cmb_stopbit.Name = "l1_cmb_stopbit";
+            this.l1_cmb_stopbit.Size = new System.Drawing.Size(64, 20);
+            this.l1_cmb_stopbit.TabIndex = 33;
             // 
-            // comboBox2
+            // l1_cmb_baudrate
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(61, 53);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(64, 20);
-            this.comboBox2.TabIndex = 32;
+            this.l1_cmb_baudrate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.l1_cmb_baudrate.FormattingEnabled = true;
+            this.l1_cmb_baudrate.Items.AddRange(new object[] {
+            "110",
+            "300",
+            "600",
+            "1200",
+            "2400",
+            "4800",
+            "9600",
+            "14400",
+            "19200",
+            "28800",
+            "38400",
+            "56000",
+            "57600",
+            "115200",
+            "128000",
+            "256000"});
+            this.l1_cmb_baudrate.Location = new System.Drawing.Point(61, 53);
+            this.l1_cmb_baudrate.Name = "l1_cmb_baudrate";
+            this.l1_cmb_baudrate.Size = new System.Drawing.Size(64, 20);
+            this.l1_cmb_baudrate.TabIndex = 32;
+            this.l1_cmb_baudrate.SelectedIndexChanged += new System.EventHandler(this.l1_combo_baud_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -820,7 +887,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 31;
-            this.label3.Text = "停止位";
+            this.label3.Text = "校验位";
             // 
             // label2
             // 
@@ -829,25 +896,26 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 30;
-            this.label2.Text = "比特率";
+            this.label2.Text = "波特率";
             // 
-            // button3
+            // l1_btn_getserial
             // 
-            this.button3.Location = new System.Drawing.Point(16, 24);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 23);
-            this.button3.TabIndex = 29;
-            this.button3.Text = "重新获取端口";
-            this.button3.UseVisualStyleBackColor = true;
+            this.l1_btn_getserial.Location = new System.Drawing.Point(16, 24);
+            this.l1_btn_getserial.Name = "l1_btn_getserial";
+            this.l1_btn_getserial.Size = new System.Drawing.Size(109, 23);
+            this.l1_btn_getserial.TabIndex = 29;
+            this.l1_btn_getserial.Text = "重新获取端口";
+            this.l1_btn_getserial.UseVisualStyleBackColor = true;
+            this.l1_btn_getserial.Click += new System.EventHandler(this.button3_Click);
             // 
-            // comboBox1
+            // l1_cmb_com
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(178, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(64, 20);
-            this.comboBox1.TabIndex = 27;
+            this.l1_cmb_com.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.l1_cmb_com.FormattingEnabled = true;
+            this.l1_cmb_com.Location = new System.Drawing.Point(178, 27);
+            this.l1_cmb_com.Name = "l1_cmb_com";
+            this.l1_cmb_com.Size = new System.Drawing.Size(64, 20);
+            this.l1_cmb_com.TabIndex = 27;
             // 
             // label1
             // 
@@ -893,37 +961,112 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.radioButton1);
-            this.panel6.Controls.Add(this.radioButton2);
+            this.panel6.Controls.Add(this.l2_rdo_sendfile);
+            this.panel6.Controls.Add(this.l2_rdo_sendlist);
             this.panel6.Location = new System.Drawing.Point(239, 455);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(253, 45);
             this.panel6.TabIndex = 24;
             // 
-            // radioButton1
+            // l2_rdo_sendfile
             // 
-            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton1.Location = new System.Drawing.Point(119, 5);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(104, 33);
-            this.radioButton1.TabIndex = 24;
-            this.radioButton1.Text = "自动发送文件";
-            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.l2_rdo_sendfile.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l2_rdo_sendfile.Location = new System.Drawing.Point(119, 5);
+            this.l2_rdo_sendfile.Name = "l2_rdo_sendfile";
+            this.l2_rdo_sendfile.Size = new System.Drawing.Size(104, 33);
+            this.l2_rdo_sendfile.TabIndex = 24;
+            this.l2_rdo_sendfile.Text = "自动发送文件";
+            this.l2_rdo_sendfile.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l2_rdo_sendfile.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // l2_rdo_sendlist
             // 
-            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton2.Checked = true;
-            this.radioButton2.Location = new System.Drawing.Point(9, 5);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(104, 33);
-            this.radioButton2.TabIndex = 23;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "自动发送列表";
-            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.l2_rdo_sendlist.Appearance = System.Windows.Forms.Appearance.Button;
+            this.l2_rdo_sendlist.Checked = true;
+            this.l2_rdo_sendlist.Location = new System.Drawing.Point(9, 5);
+            this.l2_rdo_sendlist.Name = "l2_rdo_sendlist";
+            this.l2_rdo_sendlist.Size = new System.Drawing.Size(104, 33);
+            this.l2_rdo_sendlist.TabIndex = 23;
+            this.l2_rdo_sendlist.TabStop = true;
+            this.l2_rdo_sendlist.Text = "自动发送列表";
+            this.l2_rdo_sendlist.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.l2_rdo_sendlist.UseVisualStyleBackColor = true;
+            this.l2_rdo_sendlist.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // l2_grp_sendfile
+            // 
+            this.l2_grp_sendfile.Controls.Add(this.button15);
+            this.l2_grp_sendfile.Controls.Add(this.button5);
+            this.l2_grp_sendfile.Controls.Add(this.button1);
+            this.l2_grp_sendfile.Controls.Add(this.textBox1);
+            this.l2_grp_sendfile.Controls.Add(this.progressBar2);
+            this.l2_grp_sendfile.Controls.Add(this.text_autosendfileshow);
+            this.l2_grp_sendfile.Controls.Add(this.label31);
+            this.l2_grp_sendfile.Location = new System.Drawing.Point(239, 3);
+            this.l2_grp_sendfile.Name = "l2_grp_sendfile";
+            this.l2_grp_sendfile.Size = new System.Drawing.Size(652, 452);
+            this.l2_grp_sendfile.TabIndex = 147;
+            this.l2_grp_sendfile.TabStop = false;
+            this.l2_grp_sendfile.Text = "自动发送文件";
+            this.l2_grp_sendfile.Visible = false;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(571, 392);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 38;
+            this.button15.Text = "清除";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(490, 392);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 37;
+            this.button5.Text = "保存";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(409, 392);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 36;
+            this.button1.Text = "打开";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 394);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(397, 21);
+            this.textBox1.TabIndex = 35;
+            // 
+            // progressBar2
+            // 
+            this.progressBar2.Location = new System.Drawing.Point(6, 424);
+            this.progressBar2.Name = "progressBar2";
+            this.progressBar2.Size = new System.Drawing.Size(639, 22);
+            this.progressBar2.TabIndex = 34;
+            // 
+            // text_autosendfileshow
+            // 
+            this.text_autosendfileshow.Location = new System.Drawing.Point(6, 14);
+            this.text_autosendfileshow.Multiline = true;
+            this.text_autosendfileshow.Name = "text_autosendfileshow";
+            this.text_autosendfileshow.Size = new System.Drawing.Size(639, 369);
+            this.text_autosendfileshow.TabIndex = 0;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(145, 20);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(29, 12);
+            this.label31.TabIndex = 26;
+            this.label31.Text = "代码";
             // 
             // l2_grp_sendlist
             // 
@@ -995,71 +1138,23 @@
             this.l2_grp_sendlist.TabStop = false;
             this.l2_grp_sendlist.Text = "自动发送列表";
             // 
-            // l2_grp_sendfile
+            // label58
             // 
-            this.l2_grp_sendfile.Controls.Add(this.button15);
-            this.l2_grp_sendfile.Controls.Add(this.button5);
-            this.l2_grp_sendfile.Controls.Add(this.button1);
-            this.l2_grp_sendfile.Controls.Add(this.textBox1);
-            this.l2_grp_sendfile.Controls.Add(this.progressBar2);
-            this.l2_grp_sendfile.Controls.Add(this.text_autosendfileshow);
-            this.l2_grp_sendfile.Controls.Add(this.label31);
-            this.l2_grp_sendfile.Location = new System.Drawing.Point(239, 3);
-            this.l2_grp_sendfile.Name = "l2_grp_sendfile";
-            this.l2_grp_sendfile.Size = new System.Drawing.Size(652, 452);
-            this.l2_grp_sendfile.TabIndex = 147;
-            this.l2_grp_sendfile.TabStop = false;
-            this.l2_grp_sendfile.Text = "自动发送文件";
-            this.l2_grp_sendfile.Visible = false;
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(255, 17);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(29, 12);
+            this.label58.TabIndex = 149;
+            this.label58.Text = "代码";
             // 
-            // button15
+            // label57
             // 
-            this.button15.Location = new System.Drawing.Point(571, 392);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 38;
-            this.button15.Text = "清除";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(490, 392);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 37;
-            this.button5.Text = "保存";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(409, 392);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "打开";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(6, 394);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(397, 21);
-            this.textBox1.TabIndex = 35;
-            // 
-            // progressBar2
-            // 
-            this.progressBar2.Location = new System.Drawing.Point(6, 424);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(639, 22);
-            this.progressBar2.TabIndex = 34;
-            // 
-            // text_autosendfileshow
-            // 
-            this.text_autosendfileshow.Location = new System.Drawing.Point(6, 14);
-            this.text_autosendfileshow.Multiline = true;
-            this.text_autosendfileshow.Name = "text_autosendfileshow";
-            this.text_autosendfileshow.Size = new System.Drawing.Size(639, 369);
-            this.text_autosendfileshow.TabIndex = 0;
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(117, 19);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(29, 12);
+            this.label57.TabIndex = 148;
+            this.label57.Text = "代码";
             // 
             // label45
             // 
@@ -1216,15 +1311,6 @@
             this.button18.TabIndex = 89;
             this.button18.Text = "清除列表";
             this.button18.UseVisualStyleBackColor = true;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(145, 20);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(29, 12);
-            this.label31.TabIndex = 26;
-            this.label31.Text = "代码";
             // 
             // textBox40
             // 
@@ -2704,31 +2790,13 @@
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "版权信息";
             // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(117, 19);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(29, 12);
-            this.label57.TabIndex = 148;
-            this.label57.Text = "代码";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(255, 17);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(29, 12);
-            this.label58.TabIndex = 149;
-            this.label58.Text = "代码";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(907, 626);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.grp_quickset);
             this.Controls.Add(this.txt_status);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -2740,23 +2808,24 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "Form1";
-            this.groupBox4.ResumeLayout(false);
+            this.Text = "串口助手0.5";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.grp_quickset.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.l1_grp_send.ResumeLayout(false);
+            this.l1_grp_send.PerformLayout();
+            this.l1_grp_receive.ResumeLayout(false);
+            this.l1_grp_receive.PerformLayout();
+            this.l1_rdo_serial.ResumeLayout(false);
+            this.l1_rdo_serial.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.l2_grp_sendlist.ResumeLayout(false);
-            this.l2_grp_sendlist.PerformLayout();
             this.l2_grp_sendfile.ResumeLayout(false);
             this.l2_grp_sendfile.PerformLayout();
+            this.l2_grp_sendlist.ResumeLayout(false);
+            this.l2_grp_sendlist.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
@@ -2800,48 +2869,48 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txt_status;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox grp_quickset;
         private System.Windows.Forms.CheckBox chk_loadlasttime;
         private System.Windows.Forms.Button btn_setsave;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btn_reset;
+        private System.Windows.Forms.Button btn_load;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.RadioButton radio_hex2;
-        private System.Windows.Forms.RadioButton radio_char2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button_save2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox l1_grp_send;
+        private System.Windows.Forms.Button l1_btn_send;
+        private System.Windows.Forms.RadioButton l1_rdo_sendhex;
+        private System.Windows.Forms.RadioButton l1_rdo_sendchar;
+        private System.Windows.Forms.Button l1_btn_sendload;
+        private System.Windows.Forms.Button l1_btn_sendsave;
+        private System.Windows.Forms.Button l1_btn_sendclear;
         private System.Windows.Forms.TextBox l1_txt_receive;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.ComboBox Combo_channel1;
-        private System.Windows.Forms.RadioButton Hexbutton1;
-        private System.Windows.Forms.RadioButton Charbutton1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.GroupBox l1_grp_receive;
+        private System.Windows.Forms.Button l1_btn_resend;
+        private System.Windows.Forms.CheckBox l1_chk_showsource;
+        private System.Windows.Forms.Button l1_btn_receivesave;
+        private System.Windows.Forms.Button l1_btn_receiveclear;
+        private System.Windows.Forms.ComboBox l1_cmb_receivechannel;
+        private System.Windows.Forms.RadioButton l1_rdo_receivehex;
+        private System.Windows.Forms.RadioButton l1_rdo_receivechar;
+        private System.Windows.Forms.CheckBox l1_chk_showtime;
+        private System.Windows.Forms.CheckBox l1_chk_showsend;
+        private System.Windows.Forms.GroupBox l1_rdo_serial;
+        private System.Windows.Forms.CheckBox l1_chk_RI;
+        private System.Windows.Forms.CheckBox l1_chk_CTS;
+        private System.Windows.Forms.CheckBox l1_chk_DSR;
+        private System.Windows.Forms.CheckBox l1_chk_DCD;
+        private System.Windows.Forms.CheckBox l1_chk_RTS;
+        private System.Windows.Forms.CheckBox l1_chk_DTR;
+        private System.Windows.Forms.ComboBox l1_cmb_checkbit;
+        private System.Windows.Forms.ComboBox l1_cmb_databit;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox l1_cmb_stopbit;
+        private System.Windows.Forms.ComboBox l1_cmb_baudrate;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button l1_btn_getserial;
+        private System.Windows.Forms.ComboBox l1_cmb_com;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox l1_txt_send;
         private System.Windows.Forms.TabPage tabPage2;
@@ -2960,7 +3029,6 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.CheckBox checkBox38;
-        private System.Windows.Forms.CheckBox checkBox39;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
@@ -3030,13 +3098,14 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button btn_topmost;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton l2_rdo_sendfile;
+        private System.Windows.Forms.RadioButton l2_rdo_sendlist;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.CheckBox chk_topmost;
+        private System.Windows.Forms.CheckBox l1_chk_enableserial;
     }
 }
 
