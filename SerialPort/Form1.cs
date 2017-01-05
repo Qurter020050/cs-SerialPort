@@ -64,6 +64,32 @@ namespace SerialPort
             grpname.Enabled = false;
         }
 
+        private void TxtboxLoad(TextBox txt_box)
+        {
+
+        }
+
+        private void TxtboxSave(TextBox txt_box)
+        {
+            if (txt_box.TextLength == 0)
+            {
+                DialogResult msgSave = MessageBox.Show("接收区未收到数据！\n是否保存？", "保存", MessageBoxButtons.OKCancel, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                if (msgSave == DialogResult.Cancel)
+                    return;
+            }
+                SaveFileDialog digSave = new SaveFileDialog();
+                digSave.Filter = "Text Files | *.txt";
+                digSave.DefaultExt = "txt";
+                if (digSave.ShowDialog() == DialogResult.OK)
+                {
+                    System.IO.StreamWriter txtsave = new System.IO.StreamWriter(digSave.FileName, true, Encoding.Default);
+
+                    txtsave.Write(txt_box.Text);
+                    txtsave.Close();
+
+                }
+        }
+
         private void GetSerialPorts()
         {
             string[] ports = System.IO.Ports.SerialPort.GetPortNames();
@@ -73,12 +99,15 @@ namespace SerialPort
                 l1_cmb_com.Items.Clear();
                 l1_cmb_com.Items.AddRange(ports);
                 l1_cmb_com.SelectedIndex = 0;
+                statetext = "检测到串口:" + ports;
             }
             else
             {
                 l1_cmb_com.Items.Clear();
                 l1_cmb_com.SelectedIndex = -1;
+                statetext = "未检测到串口！";
             }
+            DisplayUpdate();
         }
         
         private void InitEnviroments()
@@ -97,6 +126,7 @@ namespace SerialPort
             txt_sendcount.Text = "(" + sendmode.ToString() + "):" + sendcount.ToString();
             txt_status.AppendText(statetext+Environment.NewLine);
             txt_status.ScrollToCaret();
+            this.Text = "串口助手 Ver 0.1";
         }
 
         public Form1()
@@ -323,6 +353,16 @@ namespace SerialPort
         private void l1_rdo_receivechar_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void l1_btn_receivesave_Click(object sender, EventArgs e)
+        {
+            TxtboxSave(l1_txt_receive);
+        }
+
+        private void l1_btn_sendsave_Click(object sender, EventArgs e)
+        {
+            TxtboxSave(l1_txt_send);
         }
     }
 }

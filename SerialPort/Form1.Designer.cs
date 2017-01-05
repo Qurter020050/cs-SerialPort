@@ -548,6 +548,7 @@
             this.l1_btn_sendsave.TabIndex = 17;
             this.l1_btn_sendsave.Text = "保存";
             this.l1_btn_sendsave.UseVisualStyleBackColor = true;
+            this.l1_btn_sendsave.Click += new System.EventHandler(this.l1_btn_sendsave_Click);
             // 
             // l1_btn_sendclear
             // 
@@ -614,6 +615,7 @@
             this.l1_btn_receivesave.TabIndex = 32;
             this.l1_btn_receivesave.Text = "保存";
             this.l1_btn_receivesave.UseVisualStyleBackColor = true;
+            this.l1_btn_receivesave.Click += new System.EventHandler(this.l1_btn_receivesave_Click);
             // 
             // l1_btn_receiveclear
             // 
